@@ -14,10 +14,11 @@
     "prepublish": "./node_modules/.bin/babel -d lib/ src/"
   },
   "files": [
-    "lib"
+    "lib/*"
   ],
   "dependencies": {
     "axios": "^0.10.0",
+    "buffer": "^4.6.0",
     "debug": "^2.2.0",
     "es6-promise": "^3.0.2",
     "js-base64": "^2.1.9",
